@@ -1,0 +1,25 @@
+{
+  "name": "zomboid-discord-rcon",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Project Zomboid",
+    "Discord",
+    "RCON"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "description": "A Node.js project for integrating Project Zomboid RCON with Discord.",
+  "dependencies": {
+    "config": "^3.3.9",
+    "discord.js": "^14.0.0",
+    "dotenv": "^10.0.0",
+    "rcon-client": "^4.2.5",
+    "ssh2-sftp-client": "^12.0.0"
+  }
+}

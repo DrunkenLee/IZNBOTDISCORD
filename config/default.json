@@ -1,0 +1,14 @@
+{
+  "rcon": {
+    "host": "49.128.187.42",
+    "port": 27020,
+    "password": ""
+  },
+  "discord": {
+    "token": "",
+    "prefix": "!"
+  },
+  "logging": {
+    "level": "info"
+  }
+}
