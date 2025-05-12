@@ -15,7 +15,7 @@ export class DiscordBot {
     // Track the last restart time for cooldown
     this.lastRestartTime = null;
     // Required number of confirmations
-    this.requiredConfirmations = 5;
+    this.requiredConfirmations = 2;
     // Cooldown period in milliseconds (1 hour)
     this.restartCooldown = 60 * 60 * 1000;
 
